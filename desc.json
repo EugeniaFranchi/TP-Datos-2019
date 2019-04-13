@@ -157,67 +157,67 @@
     },
     "events": {
         "date": {
-            "desc": "",
+            "desc": "date when the event was performed",
             "transformation": null
         },
         "event_id": {
-            "desc": "",
+            "desc": "id generated for the event",
             "transformation": "LabelEncoding"
         },
         "ref_type": {
-            "desc": "",
+            "desc": "either apple_ifa or google_advertising_id",
             "transformation": "string hashing"
         },
         "ref_hash": {
-            "desc": "",
+            "desc": "the device's apple_ifa or google_advertising_id",
             "transformation": "string hashing"
         },
         "application_id": {
-            "desc": "",
+            "desc": "internal id for the event on which the event was performed",
             "transformation": "LabelEncoding"
         },
         "attributed": {
-            "desc": "",
+            "desc": "whether the event was attributed to Jampp",
             "transformation": null
         },
         "device_countrycode": {
-            "desc": "",
+            "desc": "country code related to the device",
             "transformation": "string hashing"
         },
         "device_os_version": {
-            "desc": "",
+            "desc": "os version used by the device",
             "transformation": "string hashing"
         },
         "device_brand": {
-            "desc": "",
+            "desc": "device's brand",
             "transformation": "string hashing"
         },
         "device_model": {
-            "desc": "",
+            "desc": "device's model",
             "transformation": "string hashing"
         },
         "device_city": {
-            "desc": "",
+            "desc": "inferred city where the event was performed",
             "transformation": "string hashing"
         },
         "session_user_agent": {
-            "desc": "",
+            "desc": "user agent sued in the session where the event was performed",
             "transformation": "string hashing"
         },
         "trans_id": {
-            "desc": "",
+            "desc": "transaction id",
             "transformation": null
         },
         "user_agent": {
-            "desc": "",
+            "desc": "user agent related to the device",
             "transformation": "string hashing"
         },
         "event_uuid": {
-            "desc": "",
+            "desc": "uuid4 generated for the event",
             "transformation": null
         },
         "carrier": {
-            "desc": "",
+            "desc": "device's mobile carrier",
             "transformation": "string hashing"
         },
         "kind": {
@@ -225,11 +225,11 @@
             "transformation": "string hashing"
         },
         "device_os": {
-            "desc": "",
+            "desc": "os used by the device",
             "transformation": "string hashing"
         },
         "wifi": {
-            "desc": "",
+            "desc": "boolean flagging whether the event was performed through a wifi connection",
             "transformation": null
         },
         "connection_type": {
@@ -237,11 +237,11 @@
             "transformation": null
         },
         "ip_address": {
-            "desc": "",
+            "desc": "ip addres the event came through",
             "transformation": "string hashing"
         },
         "device_language": {
-            "desc": "",
+            "desc": "language related to the device",
             "transformation": "string hashing"
         }
     },
